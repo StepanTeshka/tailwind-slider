@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+  <title>test</title>
+  <meta charset="utf-8" />
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet" />
+<link href="styles/tailwind.css" rel="stylesheet" />
+<link rel="stylesheet" href="./styles/style.css">
+<html class="h-screen">
+
+<body class="flex justify-center items-center h-screen">
+
+  <div class="w-80 h-20 flex justify-between items-center">
+    <div class="float-left w-8 h-16  rounded-lg bg-gray-200 justify-center items-center " id="dark-white">
+      <button class=" w-full h-2/4 flex items-center justify-center border   border-gray-200  bg-gray-50  rounded-lg"
+        id="whiteButton">
+        <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+          class="bg-gray-50 pointer-events-none fill-current text-gray-900" id="buttonSVGwhite">
+          <path
+            d="M7.58328 1.08334C7.58328 0.761169 7.32211 0.5 6.99994 0.5C6.67777 0.5 6.4166 0.761169 6.4166 1.08334L6.41661 2.25001C6.41661 2.57218 6.67777 2.83335 6.99994 2.83335C7.32211 2.83335 7.58328 2.57218 7.58328 2.25001V1.08334Z" />
+          <path
+            d="M2.87401 2.54904C2.6462 2.32124 2.27685 2.32124 2.04905 2.54904C1.82124 2.77685 1.82124 3.1462 2.04905 3.37401L2.87739 4.20235C3.10519 4.43016 3.47454 4.43016 3.70235 4.20235C3.93016 3.97454 3.93016 3.60519 3.70235 3.37738L2.87401 2.54904Z" />
+          <path
+            d="M11.9507 3.37401C12.1785 3.1462 12.1785 2.77685 11.9507 2.54904C11.7229 2.32124 11.3535 2.32124 11.1257 2.54904L10.2974 3.37738C10.0695 3.60519 10.0695 3.97454 10.2974 4.20235C10.5252 4.43016 10.8945 4.43016 11.1223 4.20235L11.9507 3.37401Z" />
+          <path
+            d="M0.583338 6.9166C0.26117 6.9166 -1.40824e-08 7.17777 0 7.49994C1.40824e-08 7.82211 0.26117 8.08328 0.583338 8.08328L1.75001 8.08328C2.07218 8.08328 2.33335 7.82211 2.33335 7.49994C2.33335 7.17777 2.07218 6.9166 1.75001 6.9166L0.583338 6.9166Z" />
+          <path
+            d="M12.25 6.9166C11.9278 6.9166 11.6666 7.17777 11.6666 7.49994C11.6666 7.82211 11.9278 8.08328 12.25 8.08328L13.4167 8.08328C13.7388 8.08328 14 7.82211 14 7.49994C14 7.17777 13.7388 6.9166 13.4167 6.9166L12.25 6.9166Z" />
+          <path
+            d="M3.70235 11.6223C3.93016 11.3945 3.93016 11.0252 3.70235 10.7974C3.47454 10.5695 3.10519 10.5695 2.87739 10.7974L2.04905 11.6257C1.82124 11.8535 1.82124 12.2228 2.04905 12.4507C2.27685 12.6785 2.6462 12.6785 2.87401 12.4507L3.70235 11.6223Z" />
+          <path
+            d="M11.1223 10.7974C10.8945 10.5695 10.5252 10.5695 10.2974 10.7974C10.0695 11.0252 10.0695 11.3945 10.2974 11.6223L11.1257 12.4507C11.3535 12.6785 11.7229 12.6785 11.9507 12.4507C12.1785 12.2228 12.1785 11.8535 11.9507 11.6257L11.1223 10.7974Z" />
+          <path
+            d="M7.58328 12.75C7.58328 12.4278 7.32211 12.1666 6.99994 12.1666C6.67777 12.1666 6.4166 12.4278 6.4166 12.75L6.41661 13.9167C6.41661 14.2388 6.67777 14.5 6.99994 14.5C7.32211 14.5 7.58328 14.2388 7.58328 13.9167L7.58328 12.75Z" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M10.7699 7.49994C10.7699 9.58163 9.08237 11.2692 7.00068 11.2692C4.91899 11.2692 3.23145 9.58163 3.23145 7.49994C3.23145 5.41825 4.91899 3.73071 7.00068 3.73071C9.08237 3.73071 10.7699 5.41825 10.7699 7.49994ZM9.76991 7.49994C9.76991 9.02935 8.53008 10.2692 7.00068 10.2692C5.47127 10.2692 4.23145 9.02935 4.23145 7.49994C4.23145 5.97054 5.47127 4.73071 7.00068 4.73071C8.53008 4.73071 9.76991 5.97054 9.76991 7.49994Z" />
+        </svg>
+      </button>
+      <button class="w-full h-2/4 flex items-center justify-center border border-gray-200 rounded-lg" id="darkButton">
+        <svg class="fill-current text-gray-400 pointer-events-none" id="buttonSVGdark" width="12" height="13"
+          viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M5.98378 0.777659C6.08934 0.964958 6.07503 1.19679 5.94723 1.36969C5.41961 2.08349 5.16572 2.96297 5.23173 3.84815C5.29774 4.73333 5.67927 5.56542 6.30692 6.19308C6.93458 6.82073 7.76667 7.20226 8.65185 7.26827C9.53703 7.33428 10.4165 7.08039 11.1303 6.55277C11.3032 6.42498 11.535 6.41066 11.7223 6.51622C11.9096 6.62178 12.0175 6.82751 11.9977 7.0416C11.8926 8.17859 11.4659 9.26215 10.7675 10.1655C10.069 11.0688 9.1278 11.7545 8.05388 12.1425C6.97995 12.5304 5.81775 12.6044 4.70328 12.3559C3.58881 12.1074 2.56816 11.5466 1.76076 10.7392C0.953353 9.93184 0.392594 8.91119 0.144093 7.79672C-0.104407 6.68225 -0.030371 5.52005 0.35754 4.44613C0.74545 3.3722 1.43119 2.43095 2.33452 1.73253C3.23785 1.03411 4.32141 0.607396 5.4584 0.502323C5.67249 0.482539 5.87822 0.590359 5.98378 0.777659ZM4.46305 1.81774C3.93806 1.9918 3.44359 2.25398 3.00179 2.59557C2.26238 3.16725 1.70108 3.93769 1.38357 4.81673C1.06605 5.69578 1.00545 6.64707 1.20885 7.55931C1.41226 8.47154 1.87126 9.30697 2.53214 9.96786C3.19303 10.6287 4.02847 11.0877 4.9407 11.2911C5.85293 11.4946 6.80422 11.434 7.68327 11.1164C8.56231 10.7989 9.33275 10.2376 9.90443 9.49821C10.246 9.05641 10.5082 8.56195 10.6823 8.03695C10.0162 8.29873 9.29495 8.41017 8.57073 8.35616C7.42498 8.27072 6.34795 7.77688 5.53553 6.96447C4.72312 6.15205 4.22928 5.07503 4.14384 3.92928C4.08983 3.20505 4.20127 2.48377 4.46305 1.81774Z" />
+
+        </svg>
+      </button>
+    </div>
+    <div class="rounded-2xl border  w-64 h-20 flex  justify-evenly items-center relative shadow-xl"
+      id="background-slider">
+      <div class="flex items-center justify-between float-left relative w-34 h-0.5">
+        <div class="absolute h-0.5 bg-blue-600 w-1 z-20" id="distanceRange"></div>
+        <input type="range" min="1" max="100" step="0.01" value="1" class="h-0.5 sticky m-0 p-0 flex-1 w-34 z-10"
+          id="myRange" />
+        <div class="w-1.5 h-1.5 bg-blue-600 rounded-lg absolute pointer-events-none" id="1"></div>
+        <div class="w-1.5 h-1.5 bg-gray-200 rounded-lg absolute pointer-events-none left-8" id="2"></div>
+        <div class="w-1.5 h-1.5 bg-gray-200 rounded-lg absolute pointer-events-none left-16" id='3'></div>
+        <div class="w-1.5 h-1.5 bg-gray-200 rounded-lg absolute pointer-events-none left-24" id="4"></div>
+        <div class="w-1.5 h-1.5 bg-gray-200 rounded-lg absolute pointer-events-none left-32" id="5"></div>
+      </div>
+
+      <div class="flex  justify-start items-center rounded-lg border h-9 w-20 relative ">
+
+        <input type="number" max="100" min="0" value="1" required id="myNumber"
+          class="font-sans text-xs w-9 h-6 z-50 text-right ml-3 outline-none"></input>
+        <p class="z-50 text-sm pointer-events-none" id="pPrecent">%</p>
+      </div>
+      <div
+        class="absolute flex border border-gray-200 rounded-lg w-24 justify-center items-center h-3.5 right-2 top-1 hidden"
+        id="waringBlock">
+        <p class="h-4 text-xs" id="waring">Не так много!</p>
+      </div>
+    </div>
+
+    <script src="./js.js"></script>
+</body>
+
+</html>
